@@ -6,6 +6,10 @@ public class Cakewalk
         int calorie[] = {1,3,2};
         System.out.println(marcsCakewalk(calorie));
     }
+    /*
+        Solution to https://www.hackerrank.com/challenges/marcs-cakewalk/problem
+        Runtime - O(n) where n = length of calorie array
+     */
     // Complete the marcsCakewalk function below.
     static long marcsCakewalk(int[] calorie) {
         Arrays.sort(calorie);
