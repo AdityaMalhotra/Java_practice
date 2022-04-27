@@ -6,6 +6,9 @@ public class AcmIcpc
         String[] topic = {"10101","11100","11010","00101"};
         System.out.println(Arrays.toString(acmTeam(topic)));
     }
+    /*
+        O(n^2) solution to https://www.hackerrank.com/challenges/acm-icpc-team/problem
+     */
     // Complete the acmTeam function below.
     static int[] acmTeam(String[] topic) {
         int countOfTeams = 0;
