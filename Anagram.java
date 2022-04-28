@@ -5,6 +5,11 @@ public class Anagram
     public static void main(String[] args) {
         System.out.println(anagram("fdhlvosfpafhalll"));
     }
+    /*
+        Solution to https://www.hackerrank.com/challenges/anagram/problem using Hashmap
+        Time - O(n)
+        Space - O(n)
+     */
     // Complete the anagram function below.
     static int anagram(String s) {
         if(s.length()%2!=0)

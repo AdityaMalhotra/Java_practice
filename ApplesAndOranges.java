@@ -6,6 +6,9 @@ public class ApplesAndOranges
         int oranges[] = {5,-6};
         countApplesAndOranges(7,11,5,15, apples,oranges);
     }
+    /*
+        O(n+m) Solution to https://www.hackerrank.com/challenges/apple-and-orange/problem
+     */
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         int apple_count = 0;
         int orange_count = 0;

@@ -6,7 +6,9 @@ public class ArrayEqualizer
         int[] arr = {3,3,2,1,3};
         System.out.println(equalizeArray(arr));
     }
-
+    /*
+       O(n) Solution to https://www.hackerrank.com/challenges/equality-in-a-array/problem
+     */
     // Complete the equalizeArray function below.
     static int equalizeArray(int[] arr) {
         int initLength = arr.length;
